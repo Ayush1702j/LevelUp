@@ -1,0 +1,14 @@
+{
+  "name": "levelup-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LevelUp - Full-Stack Personal Growth Application",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend test",
+    "build": "npm --prefix frontend run build"
+  }
+}
